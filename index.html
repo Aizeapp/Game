@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div id="container">
+    <h1>Guess Galaxy</h1>
+    <h2>Wanna play a game?</h2>
+    <ul>
+        <li>Spot the target color</li>
+        <li>Make your guess</li>
+        <li>Earn amazing points for each win</li>
+
+    </ul>
+    <h3 data-testid="gameInstructions"> Ready, Set, Pick!</h3>
+
+    <div id="levelProgress"></div>
+    
+    <div id="colorBox" data-testid="colorBox"></div>
+
+    <div id="colorOption">
+        <button class="colorOption" data-testid="colorOption"></button>
+        <button class="colorOption" data-testid="colorOption"></button>
+        <button class="colorOption" data-testid="colorOption"></button>
+        <button class="colorOption" data-testid="colorOption"></button>
+        <button class="colorOption" data-testid="colorOption"></button>
+        <button class="colorOption" data-testid="colorOption"></button>
+    </div>
+
+    <p id="gameStatus" data-testid="gameStatus">Pick a color to start!</p>
+
+    <p><span id="score" data-testid="score">0</span></p>
+
+    <button id="newGameButton" data-testid="newGameButton">New Game</button>
+</div>
+    <script src="game.js"></script>
+</body>
+</html>

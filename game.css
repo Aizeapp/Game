@@ -1,0 +1,99 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("white.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(166, 165, 165);
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #e7e5e5;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(110, 100, 100, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+#colorBox {
+    width: 170px;
+    height: 180px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.colorOption {
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: opacity 0.4s;
+    cursor: pointer;
+    
+}
+
+.colorOption:hover {
+    opacity: 0.8;
+}
+
+
+#score, #gameStatus, #gameInstructions {
+    font-size: 2.3rem;
+    margin: 10px;
+}
+
+
+#newGameButton {
+    background-color: #0077cc;
+    color: white;
+    width: 200px;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+#newGameButton:hover {
+    background-color: #005fa3;
+}
+
+
+#colorOption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.colorOption {
+    width: 80px;
+    height: 50px;
+}
